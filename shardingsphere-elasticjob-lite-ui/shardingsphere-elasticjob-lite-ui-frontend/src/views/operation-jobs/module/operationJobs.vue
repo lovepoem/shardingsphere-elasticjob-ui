@@ -146,7 +146,7 @@
           <el-col :span="1">
             &nbsp;
           </el-col>
-          <el-col :span="4">
+          <el-col :span="2">
             {{ $t('operationJobs.labelInfo.cron') }}
           </el-col>
           <el-col :span="1">
@@ -158,6 +158,9 @@
               v-model="editForm.cron"
               autocomplete="off"
             />
+          </el-col>
+          <el-col :span="2">
+            &nbsp;快捷选择
           </el-col>
         </el-form-item>
 
